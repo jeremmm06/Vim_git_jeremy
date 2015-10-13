@@ -1,0 +1,57 @@
+VIM: Cheat sheet.
+
+3 modes:
+	- Commande -> "echap" -> ":"
+	- insertion -> "i"
+	- visuel -> "v"
+
+Recherche: "/"
+
+Se deplacer: 
+	- Fleches
+	- "H" -> gauche / "L" -> droite / "J" -> bas / "K" -> haut
+
+Saut de lignes
+	- Vers une ligne précise :
+		_ "G" + N° de ligne
+		_ ":" + N° de ligne
+	- Retour en haut -> "G"
+	- A la fin -> "GG"
+
+Quitter VIM:
+	- ":q" -> quitte un fichier non modifié
+	- ":wq" -> quitte un fichier en sauvegardant -> ":w" permet d'enregistrer
+	- ":q!" -> quitte un fichier modifié sans sauvegarder
+
+Ouvrir VIM:
+	- vim "nom_de_fichier"
+	- "e" "nom_de_fichier"
+	- vim "nom_de_fichier" "nom_de_fichier2" ...
+
+Buffers:
+	- "ls" -> liste les buffers
+	- "b5" -> saute au 5eme buffer
+	
+Split écran:
+	- "ctrl" + "w" + "v" -> Split vertical
+	- "ctrl" + "w" + "h" -> Split horizontal
+	- "ctrl" + "w" + "fleche" -> changer de fenetre
+
+Mouvement curseur:
+	- "$" -> saut à la fin de la ligne
+	- "0" -> saut au début
+	- "w" -> saute de mot en mot
+
+Effacer:
+	- "dd" -> efface la ligne courante
+	- "dw" -> efface un mot
+	- "d_w" -> "_" nombre à fixer -> exemple: "d2w" -> efface 2 mots
+	- "d$" -> Du curseur jusqu'à la fin
+
+Copier/Coller:
+	- "Y" -> copier la ligne courante
+	- "P" -> colle la ligne courante 
+	- ":r /repertoire/fichier.." -> Copie dans un fichier
+	
+Selectioner: Utiliser le mode de selection -> "v" en mode commande
+
